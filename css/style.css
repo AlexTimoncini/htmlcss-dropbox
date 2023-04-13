@@ -9,9 +9,23 @@
     display: flex;
 }
 
+.blue-btn{
+    background-color: #0061ff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.1rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.container-size-hero{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 header nav{
     justify-content: space-between;
-    padding: 2rem 0;
+    padding: 1.6rem 0;
 }
 
 header nav ul{
@@ -31,4 +45,44 @@ header nav .nav-item a{
     text-decoration: none;
     color: #000;
     font-size: 1rem;
+}
+
+header .jumbotron{
+    background-color: #b4d0e7;
+    padding-top: 5rem;
+}
+
+header .jumbotron .hero{
+    flex-wrap: wrap;
+}
+
+header .jumbotron .hero .title{
+    font-weight: 900;
+    font-size: 5rem;
+    width: 100%;
+    padding-bottom: 3rem;
+}
+
+header .jumbotron .hero aside{
+    width: 30%;
+}
+
+header .jumbotron .hero .jumbo-image{
+    width: 70%;
+    position: relative;
+}
+
+header .jumbotron .hero aside .blue-btn{
+    margin: 2rem 0;
+}
+
+header .jumbotron .hero aside i{
+    font-size: 3rem;
+    margin: 5rem 0 1rem 0;
+}
+
+
+header .jumbotron .hero img{
+    width: 100%;
+    position: absolute;
 }
