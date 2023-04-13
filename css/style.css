@@ -2,4 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+header nav{
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+header nav ul{
+    align-items: center;
+}
+
+header nav .nav-item{
+    list-style: none;
+    padding: 0 1.5rem;
+}
+
+header nav .nav-item img{
+    vertical-align: middle;
+}
+
+header nav .nav-item a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
 }
