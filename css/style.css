@@ -56,6 +56,14 @@ hr.small-divider{
     background-color: #bdbdbd;
 }
 
+h2{
+font-size: 3rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
 header nav ul{
     align-items: center;
 }
@@ -120,7 +128,6 @@ main .subscription{
 }
 
 main .subscription h2{
-    font-size: 3rem;
     padding-bottom: 2.5rem;
 }
 
@@ -228,7 +235,6 @@ main .partner img{
 }
 
 main .advantages h2{
-    font-size: 2.5rem;
     padding-top: 5rem;
 }
 
@@ -248,3 +254,10 @@ main .advantages .advantage img{
     text-align: center;
 }
 
+main .our-customers{
+    padding: 12rem 0 8rem 0;
+}
+
+main .our-customers h2{
+    padding-bottom: 3rem;
+}
