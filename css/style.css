@@ -234,12 +234,22 @@ main .subscription .contact-us{
 }
 
 main .partner{
-    padding-top: 8rem;
+    padding-top: 10rem;
 }
 
 main .partner img{
     width: 60%;
 }
+
+main .partner aside{
+    padding: 5rem 3rem;
+    width: 40%;
+}
+
+main .partner aside .caption{
+    padding: 2rem 0;
+}
+
 
 main .advantages h2{
     padding-top: 5rem;
