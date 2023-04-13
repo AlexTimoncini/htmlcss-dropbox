@@ -282,3 +282,9 @@ main .accordion .brands-wrapper .brand{
 main .accordion .brands-wrapper .brand img{
     width: 50%;
 }
+
+main .free-trial{
+    background-color: #b4d0e7;
+    padding: 7rem 0;
+}
+
