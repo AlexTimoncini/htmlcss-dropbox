@@ -261,3 +261,24 @@ main .our-customers{
 main .our-customers h2{
     padding-bottom: 3rem;
 }
+
+main .accordion{
+    width: 100%;
+}
+
+main .accordion .brands-wrapper{
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    width: calc(100% / 3);
+    aspect-ratio: 1 / 1;
+}
+
+main .accordion .brands-wrapper .brand{
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    background-color: rebeccapurple;
+}
+
+main .accordion .brands-wrapper .brand img{
+    width: 50%;
+}
