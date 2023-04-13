@@ -51,7 +51,7 @@ header nav{
 }
 
 hr.small-divider{
-    width: 70px;
+    width: 120px;
     height: 2px;
     background-color: #bdbdbd;
 }
@@ -286,5 +286,29 @@ main .accordion .brands-wrapper .brand img{
 main .free-trial{
     background-color: #b4d0e7;
     padding: 7rem 0;
+}
+
+footer{
+    background-color: #000;
+    color: white;
+    padding: 5rem 0 3rem 0;
+}
+
+footer nav ul{
+    width: calc(100% / 5 - 5rem);
+    list-style: none;
+    padding-bottom: 6rem;
+    line-height: 2.2rem;
+}
+
+footer nav ul .head{
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}
+
+footer .language-menu{
+    padding-top: 3rem;
+    color: #bdbdbd;
 }
 
