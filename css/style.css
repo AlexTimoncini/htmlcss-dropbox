@@ -226,3 +226,25 @@ main .partner{
 main .partner img{
     width: 60%;
 }
+
+main .advantages h2{
+    font-size: 2.5rem;
+    padding-top: 5rem;
+}
+
+main .advantages .wrapper{
+    flex-wrap: wrap;
+    width: 100%;
+    row-gap: 3rem;
+    column-gap: 3rem;
+}
+
+main .advantages .advantage{
+    width: calc(100% / 3 - 6rem);
+}
+
+main .advantages .advantage img{
+    width: 100%;
+    text-align: center;
+}
+
