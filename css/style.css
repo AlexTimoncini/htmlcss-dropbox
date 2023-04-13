@@ -9,6 +9,15 @@
     display: flex;
 }
 
+.flex.between{
+    justify-content: space-between;
+}
+
+.flex.center{
+    justify-content: center;
+    align-items: center;
+}
+
 .blue-btn{
     background-color: #0061ff;
     color: white;
@@ -23,9 +32,19 @@
     margin: 0 auto;
 }
 
+.container-size-main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 header nav{
-    justify-content: space-between;
     padding: 1.6rem 0;
+}
+
+hr.small-divider{
+    width: 70px;
+    height: 2px;
+    background-color: #bdbdbd;
 }
 
 header nav ul{
@@ -85,4 +104,103 @@ header .jumbotron .hero aside i{
 header .jumbotron .hero img{
     width: 100%;
     position: absolute;
+}
+
+main .subscription{
+    padding-top: 10rem;
+}
+
+main .subscription h2{
+    font-size: 3rem;
+    padding-bottom: 2.5rem;
+}
+
+main .subscription label{
+    margin-right: 3rem;
+}
+
+main .subscription .wrapper{
+    padding-top: 4rem;
+    width: 100%;
+}
+
+main .subscription .plan{
+    width: calc(100% / 3 - 1rem);
+    border: 1px solid #bdbdbd;
+}
+
+main .subscription .plan .head-plan{
+    width: 100%;
+    border-bottom: 1px solid #bdbdbd;
+    list-style: none;
+    padding: 0.7rem 0;
+}
+
+main .subscription .plan .feature:before{
+    content:  "";
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+    background-repeat: no-repeat;
+    margin-right: 0.3rem;
+    vertical-align: baseline;
+}
+
+main .subscription .plan .body-plan{
+    padding: 2rem;
+    list-style: none;
+    font-size: 0.9rem;
+}
+
+main .subscription .plan .body-plan .title{
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+}
+
+main .subscription .plan .body-plan .price{
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding-bottom: 0.6rem;
+}
+
+main .subscription .plan .body-plan .payment-time{
+    font-size: 0.9rem;
+    color: #8d8d8d;
+}
+
+main .subscription .plan .body-plan .features{
+    padding: 2.5rem 0;
+    list-style: none;
+}
+
+main .subscription .plan .body-plan .features li{
+    padding: 0.5rem 0;
+}
+main .subscription .plan .user:before{
+    background-image: url(../img/user-solid.svg);
+}
+
+main .subscription .plan .space:before{
+    background-image: url(../img/folder-solid.svg);
+}
+
+main .subscription .plan .sharing:before{
+    background-image: url(../img/share-nodes-solid.svg);
+}
+
+main .subscription .plan .body-plan .shop-now{
+    padding: 2rem 0;;
+}
+
+main .subscription .plan .body-plan .resume{
+    padding-top: 2.5rem;
+    list-style: none;
+}
+
+main .subscription .plan .body-plan .resume li{
+    padding: 0.5rem 0;
+}
+
+main .subscription .plan .check:before{
+    background-image: url(../img/check-solid.svg);
 }
