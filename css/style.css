@@ -140,7 +140,7 @@ main .subscription .wrapper{
 }
 
 main .subscription .plan{
-    width: calc(100% / 3 - 1rem);
+    width: calc(100% / 3 - 1.5rem);
     border: 1px solid #bdbdbd;
 }
 
