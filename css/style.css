@@ -151,13 +151,23 @@ main .subscription .plan .head-plan{
     padding: 0.7rem 0;
 }
 
+main .subscription .plan .body-plan .feature{
+    position: relative;
+}
+
+main .subscription .plan .body-plan .feature:before{
+    position: absolute;
+    left: -1rem;
+}
+
 main .subscription .plan .feature:before{
-    content:  "";
-    display: inline-block;
-    width: 1.2rem;
-    height: 1.2rem;
-    background-repeat: no-repeat;
-    margin-right: 0.3rem;
+content:  "";
+display: inline-block;
+width: 1rem;
+height: 1rem;
+background-repeat: no-repeat;
+margin-right: 0.3rem;
+vertical-align: middle;
 }
 
 main .subscription .plan .body-plan{
@@ -187,8 +197,8 @@ main .subscription .plan .body-plan .features{
     list-style: none;
 }
 
-main .subscription .plan .body-plan .features li{
-    padding: 0.5rem 0;
+main .subscription .plan .body-plan .feature{
+    padding: 0.5rem;
 }
 
 main .subscription .plan .user:before{
@@ -212,12 +222,13 @@ main .subscription .plan .body-plan .resume{
     list-style: none;
 }
 
-main .subscription .plan .body-plan .resume li{
-    padding: 0.5rem 0;
+main .subscription .plan .body-plan .resume h4{
+    padding-bottom: 2rem;
 }
 
 main .subscription .plan .check:before{
     background-image: url(../img/check-solid.svg);
+    filter: invert(28%) sepia(54%) saturate(4519%) hue-rotate(216deg) brightness(96%) contrast(109%);
 }
 
 main .subscription .plan .team:before{
