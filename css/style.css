@@ -117,7 +117,6 @@ header .jumbotron .hero aside i{
     margin: 5rem 0 1rem 0;
 }
 
-
 header .jumbotron .hero img{
     width: 100%;
     position: absolute;
@@ -191,6 +190,7 @@ main .subscription .plan .body-plan .features{
 main .subscription .plan .body-plan .features li{
     padding: 0.5rem 0;
 }
+
 main .subscription .plan .user:before{
     background-image: url(../img/user-solid.svg);
 }
@@ -250,7 +250,6 @@ main .partner aside .caption{
     padding: 2rem 0;
 }
 
-
 main .advantages h2{
     padding-top: 5rem;
 }
@@ -300,6 +299,7 @@ main .accordion .brands-wrapper .brand{
     width: 50%;
     aspect-ratio: 1 / 1;
     background-color: rebeccapurple;
+    transition: all 0.33s ease-out;
 }
 
 main .accordion .brands-wrapper .brand img{
@@ -337,6 +337,10 @@ main .accordion .brands-wrapper:last-of-type .brand:nth-child(3){
 
 main .accordion .brands-wrapper:last-of-type .brand:nth-child(4){
     background-color: #ffd830;
+}
+
+main .accordion .brands-wrapper .brand:hover{
+    border: 1rem solid rgba(255,255,255,0.5);
 }
 
 main .accordion .review{
@@ -390,8 +394,6 @@ main .faq ul li i{
     font-size: 0.8em;
     cursor: pointer;
 }
-
-
 
 footer{
     background-color: #000;
