@@ -370,6 +370,29 @@ main .free-trial button{
     font-size: 1.1rem;
 }
 
+main .faq{
+    padding: 7rem 0;
+}
+
+main .faq h2{
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+main .faq ul li{
+    border-bottom: 1px solid #bdbdbd;
+    padding: 3rem 0;
+    font-weight: bold;
+}
+
+main .faq ul li i{
+    padding-right: 2rem;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+
+
 footer{
     background-color: #000;
     color: white;
