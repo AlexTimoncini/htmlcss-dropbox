@@ -294,6 +294,7 @@ main .accordion .brands-wrapper .brand{
     aspect-ratio: 1 / 1;
     background-color: rebeccapurple;
     transition: all 0.33s ease-out;
+    cursor: pointer;
 }
 
 main .accordion .brands-wrapper .brand img{
@@ -366,6 +367,7 @@ main .free-trial button{
     background-color: #fff;
     padding: 0.7rem 3rem;
     font-size: 1.1rem;
+    cursor: pointer;
 }
 
 main .faq{
@@ -416,5 +418,6 @@ footer nav ul a{
 footer .language-menu{
     padding-top: 3rem;
     color: #bdbdbd;
+    cursor: pointer;
 }
 
