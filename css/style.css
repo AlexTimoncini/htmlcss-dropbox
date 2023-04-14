@@ -358,6 +358,18 @@ main .free-trial{
     padding: 7rem 0;
 }
 
+main .free-trial h2{
+    color: #5c0026;
+}
+
+main .free-trial button{
+    align-self: self-start;
+    border: none;
+    background-color: #fff;
+    padding: 0.7rem 3rem;
+    font-size: 1.1rem;
+}
+
 footer{
     background-color: #000;
     color: white;
