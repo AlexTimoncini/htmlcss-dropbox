@@ -68,6 +68,10 @@ i.fa-check{
     color: #0b5eff;
 }
 
+li .fa-li{
+    left: calc(var(--fa-li-width, 1rem)*-1);
+}
+
 header nav ul{
     align-items: center;
 }
@@ -161,21 +165,7 @@ main .subscription .plan .head-plan i{
 
 main .subscription .plan .body-plan .feature{
     position: relative;
-}
-
-main .subscription .plan .body-plan .feature:before{
-    position: absolute;
-    left: -1rem;
-}
-
-main .subscription .plan .feature:before{
-content:  "";
-display: inline-block;
-width: 1rem;
-height: 1rem;
-background-repeat: no-repeat;
-margin-right: 0.3rem;
-vertical-align: middle;
+    padding: 0.5rem 0 0.5rem 0.7rem;
 }
 
 main .subscription .plan .body-plan{
@@ -203,10 +193,6 @@ main .subscription .plan .body-plan .payment-time{
 main .subscription .plan .body-plan .features{
     padding: 2.5rem 0;
     list-style: none;
-}
-
-main .subscription .plan .body-plan .feature{
-    padding: 0.5rem 0;
 }
 
 main .subscription .plan .body-plan .shop-now{
