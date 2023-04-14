@@ -64,6 +64,10 @@ h3{
     font-size: 1.5rem;
 }
 
+i.fa-check{
+    color: #0b5eff;
+}
+
 header nav ul{
     align-items: center;
 }
@@ -151,6 +155,10 @@ main .subscription .plan .head-plan{
     padding: 0.7rem 0;
 }
 
+main .subscription .plan .head-plan i{
+    margin-right: 0.5rem;
+}
+
 main .subscription .plan .body-plan .feature{
     position: relative;
 }
@@ -198,23 +206,11 @@ main .subscription .plan .body-plan .features{
 }
 
 main .subscription .plan .body-plan .feature{
-    padding: 0.5rem;
-}
-
-main .subscription .plan .user:before{
-    background-image: url(../img/user-solid.svg);
-}
-
-main .subscription .plan .space:before{
-    background-image: url(../img/folder-solid.svg);
-}
-
-main .subscription .plan .sharing:before{
-    background-image: url(../img/share-nodes-solid.svg);
+    padding: 0.5rem 0;
 }
 
 main .subscription .plan .body-plan .shop-now{
-    padding: 2rem 0;;
+    padding: 2rem 0;
 }
 
 main .subscription .plan .body-plan .resume{
@@ -224,19 +220,6 @@ main .subscription .plan .body-plan .resume{
 
 main .subscription .plan .body-plan .resume h4{
     padding-bottom: 2rem;
-}
-
-main .subscription .plan .check:before{
-    background-image: url(../img/check-solid.svg);
-    filter: invert(28%) sepia(54%) saturate(4519%) hue-rotate(216deg) brightness(96%) contrast(109%);
-}
-
-main .subscription .plan .team:before{
-    background-image: url(../img/users-solid.svg);
-}
-
-main .subscription .plan .enterprise:before{
-    background-image: url(../img/industry-solid.svg);
 }
 
 main .subscription .contact-us{
@@ -423,6 +406,11 @@ footer nav ul .head{
     font-weight: bold;
     font-size: 1.3rem;
     padding-bottom: 1rem;
+}
+
+footer nav ul a{
+    text-decoration: none;
+    color: white;
 }
 
 footer .language-menu{
