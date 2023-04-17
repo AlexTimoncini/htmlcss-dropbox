@@ -217,8 +217,11 @@ main .partner{
     padding-top: 10rem;
 }
 
-main .partner img{
+main .partner .img-box{
     width: 60%;
+}
+main .partner img{
+    width: 100%;
 }
 
 main .partner aside{
