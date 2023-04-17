@@ -163,12 +163,12 @@ main .subscription .plan .head-plan i{
     margin-right: 0.5rem;
 }
 
-main .subscription .plan .body-plan .feature{
+main .subscription .plan .feature{
     position: relative;
     padding: 0.5rem 0 0.5rem 0.7rem;
 }
 
-main .subscription .plan .body-plan{
+main .subscription .plan ul{
     padding: 2rem;
     list-style: none;
     font-size: 0.9rem;
@@ -199,18 +199,22 @@ main .subscription .plan .body-plan .shop-now{
     padding: 2rem 0;
 }
 
-main .subscription .plan .body-plan .resume{
+main .subscription .plan .resume{
     padding-top: 2.5rem;
     list-style: none;
 }
 
-main .subscription .plan .body-plan .resume h4{
+main .subscription .plan .resume h4{
     padding-bottom: 2rem;
 }
 
 main .subscription .contact-us{
     width: 100%;
     margin-top: 5rem;
+}
+
+main .subscription .small-divider{
+    margin-left: 2rem;
 }
 
 main .partner{
@@ -220,6 +224,7 @@ main .partner{
 main .partner .img-box{
     width: 60%;
 }
+
 main .partner img{
     width: 100%;
 }
