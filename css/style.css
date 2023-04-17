@@ -76,6 +76,16 @@ li .fa-li{
     left: calc(var(--fa-li-width, 1rem)*-1);
 }
 
+header nav{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-bottom: 1px solid #bdbdbd;
+}
+
 header nav ul{
     align-items: center;
 }
@@ -103,7 +113,7 @@ header nav .nav-item a{
 
 header .jumbotron{
     background-color: #b4d0e7;
-    padding-top: 5rem;
+    padding-top: 7rem;
 }
 
 header .jumbotron .hero{
