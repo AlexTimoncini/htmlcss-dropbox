@@ -442,10 +442,16 @@ main .faq ul li{
     font-weight: bold;
 }
 
-main .faq ul li i{
+main .faq ul li .fa-chevron-down{
     padding-right: 2rem;
     font-size: 0.8em;
     cursor: pointer;
+    transition: all 0.13s ease;
+}
+
+main .faq ul li .fa-chevron-down:active{
+    transform: rotateX(180deg) translateY(50%);
+    
 }
 
 footer{
