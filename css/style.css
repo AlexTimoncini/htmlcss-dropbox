@@ -96,6 +96,8 @@ header nav .nav-item{
     padding: 1rem 1.5rem;
     height: 100%;
     align-items: center;
+    border-bottom: 3px solid transparent;
+
 }
 
 header nav .menu-item:hover{
