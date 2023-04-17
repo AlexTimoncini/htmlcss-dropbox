@@ -54,10 +54,6 @@
     margin: 0 auto;
 }
 
-header nav{
-    padding: 1.6rem 0;
-}
-
 hr.small-divider{
     width: 120px;
     height: 2px;
@@ -65,7 +61,7 @@ hr.small-divider{
 }
 
 h2{
-font-size: 2.5rem;
+    font-size: 2.5rem;
 }
 
 h3{
@@ -86,7 +82,13 @@ header nav ul{
 
 header nav .nav-item{
     list-style: none;
-    padding: 0 1.5rem;
+    padding: 1rem 1.5rem;
+    height: 100%;
+    align-items: center;
+}
+
+header nav .menu-item:hover{
+    border-bottom: 3px solid black;
 }
 
 header nav .nav-item img{
