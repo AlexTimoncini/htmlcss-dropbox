@@ -350,6 +350,8 @@ main .accordion .brands-wrapper .brand{
     background-color: rebeccapurple;
     transition: all 0.33s ease-out;
     cursor: pointer;
+    border: 0.7rem solid transparent;
+
 }
 
 main .accordion .brands-wrapper .brand img{
@@ -390,7 +392,7 @@ main .accordion .brands-wrapper:last-of-type .brand:nth-child(4){
 }
 
 main .accordion .brands-wrapper .brand:hover{
-    border: 1rem solid rgba(255,255,255,0.5);
+    border: 0.7rem solid rgba(255,255,255,0.5);
 }
 
 main .accordion .review{
