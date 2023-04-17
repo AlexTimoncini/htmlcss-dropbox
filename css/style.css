@@ -19,12 +19,16 @@
 }
 
 .blue-btn{
-    background-color: #0061ff;
+    background-color: rgb(0,97,255);
     color: white;
     border: none;
     padding: 0.5rem 1.1rem;
     font-size: 1rem;
     cursor: pointer;
+}
+
+.blue-btn:hover{
+    background-color: rgba(0,97,255, 0.7);
 }
 
 .white-btn{
@@ -34,6 +38,10 @@
     padding: 0.5rem 1.1rem;
     font-size: 1.1rem;
     cursor: pointer;
+}
+
+.white-btn:hover{
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 .container-size-hero{
