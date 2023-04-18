@@ -134,7 +134,7 @@ header nav .nav-item .sub-menu ul{
     width: 250px;
 }
 
-header nav .nav-item .sub-menu ul .sub-menu-head{
+header nav .nav-item .sub-menu .sub-menu-head{
     font-size: 1.1rem;
     margin: 0.4rem 1.5rem;
     padding-bottom: 0.5rem;
@@ -142,12 +142,12 @@ header nav .nav-item .sub-menu ul .sub-menu-head{
     font-weight: bold;
 }
 
-header nav .nav-item .sub-menu ul .sub-menu-item{
+header nav .nav-item .sub-menu .sub-menu-item{
     padding: 0.4rem 1.5rem;
     width: 100%;
 }
 
-header nav .nav-item .sub-menu ul .sub-menu-item:hover{
+header nav .nav-item .sub-menu .sub-menu-item:hover{
     background-color: rgb(221, 221, 221);
 }
 
@@ -440,20 +440,50 @@ main .faq h2{
     border-bottom: 1px solid #bdbdbd;
 }
 
-main .faq ul li{
+main .faq li{
     border-bottom: 1px solid #bdbdbd;
     padding: 3rem 0;
     font-weight: bold;
 }
 
-main .faq ul li .fa-chevron-down{
+main .faq .answer{
+    padding: 1rem 5rem 0 0;
+    font-weight: 400;
+    height: 0;
+    overflow: hidden;
+}
+
+main .faq .fa-chevron-down{
     padding-right: 2rem;
     font-size: 0.8em;
     cursor: pointer;
-    transition: all 0.13s ease;
+    transition: all 0.3s ease;
 }
 
-main .faq ul li .fa-chevron-down:active{
+main .faq input[type=checkbox]{
+    display: none;
+}
+
+main .faq input[type=checkbox]:checked ~ label[for="faq-button1"] .fa-chevron-down{
+    transform: rotateX(180deg) translateY(50%);
+    
+}
+
+main .faq input[type=checkbox]:checked ~ .text-wrapper .answer{
+    height: auto;
+}
+
+main .faq input[type=checkbox]:checked ~ label[for="faq-button2"] .fa-chevron-down{
+    transform: rotateX(180deg) translateY(50%);
+    
+}
+
+main .faq input[type=checkbox]:checked ~ label[for="faq-button3"] .fa-chevron-down{
+    transform: rotateX(180deg) translateY(50%);
+    
+}
+
+main .faq input[type=checkbox]:checked ~ label[for="faq-button4"] .fa-chevron-down{
     transform: rotateX(180deg) translateY(50%);
     
 }
